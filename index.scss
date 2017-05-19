@@ -1,2 +1,57 @@
-@import "variables";
-@import "mixins";
+//VARIABLES//
+
+$bgColor: #138D40;
+
+//$bgColor: rgba(192, 192, 192, 0.3);
+
+
+//MIXINS//
+
+
+
+//BEGINNING OF SASS//
+
+
+.container{
+  .header{
+    .logo{
+      box-sizing: border-box;
+      width: 10%;
+      border: 1px solid black;
+      float: left;
+      height: 150px;
+      border-bottom: none;
+      border-right: none;
+      background: $bgColor;
+    }
+    .decoBar{
+      box-sizing: border-box;
+      width:90%;
+      border: 1px solid black;
+      float: left;
+      height: 150px;
+      border-left: none;
+      border-bottom-right-radius: 100px;
+      background: $bgColor;
+    }
+  }
+}
+
+
+.container{
+.body{
+  .menu{
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 10%;
+    height: 400px;
+    border-bottom-right-radius: 50px;
+    border-top: none;
+    border-top-right-radius: -20px;
+    background: $bgColor;
+  }
+
+  .main{}
+  }
+}

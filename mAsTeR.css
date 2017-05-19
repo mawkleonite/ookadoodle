@@ -1,6 +1,6 @@
 body {
   font-family: arial;
-  background: $bgColor;
+  background: rgba(192, 192, 192, 0.3);
 }
 
 html, body, ul, ol, li, form, fieldset, legend {
